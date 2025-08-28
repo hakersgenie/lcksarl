@@ -1,0 +1,148 @@
+/* ----------- Reset ----------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  flex: 1; /* pousse le footer en bas */
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* ----------- Navbar ----------- */
+.navbar {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0d6efd !important;
+}
+.navbar .nav-link {
+  font-size: 1rem;
+  transition: 0.3s;
+}
+.navbar .nav-link:hover {
+  color: #28a745 !important;
+}
+
+/* ----------- Hero / Header ----------- */
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+              url('../img/construction.png') center/cover no-repeat fixed;
+  color: white;
+  padding: 120px 10px;
+  text-align: center;
+  position: relative;
+  min-height: 400px;
+}
+header .container {
+  position: relative;
+  z-index: 2;
+}
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+header .btn {
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+}
+
+/* Responsive header */
+@media (max-width: 768px) {
+  header {
+    padding: 80px 15px;
+    background-position: center top;
+  }
+  header h1 {
+    font-size: 2.2rem;
+  }
+  header p {
+    font-size: 1rem;
+  }
+}
+
+/* ----------- Section titres ----------- */
+h2 {
+  font-weight: bold;
+  color: #0d6efd;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* ----------- Cards ----------- */
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+.card-title {
+  font-weight: bold;
+  color: #0d6efd;
+}
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* ----------- Formulaire ----------- */
+form .form-control {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+form .form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 8px rgba(40,167,69,0.3);
+}
+form button {
+  background: #0d6efd;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+form button:hover {
+  background: #28a745;
+}
+
+/* ----------- Footer ----------- */
+footer {
+  font-size: 0.9rem;
+  background-color: #212529;
+  color: white;
+}
+footer p {
+  margin-top: auto;
+}
+
+/* Réseaux sociaux dans le footer */
+.social-icons a {
+  color: #0d6efd; /* Jaune doré */
+  font-size: 24px;
+  margin: 0 10px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #ffffff;
+}
