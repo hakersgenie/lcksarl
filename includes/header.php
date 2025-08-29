@@ -51,7 +51,11 @@ $translations = include "lang/$lang.php";
         <li class="nav-item"><a class="nav-link" href="contact.php"><?= $translations['nav_contact'] ?></a></li>
         <li class="nav-item"><a class="nav-link" href="about.php"><?= $translations['nav_about'] ?></a></li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Langue</a>
+
+          <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <?php echo $availableLangs[$lang]['flag'] . ' ' . $availableLangs[$lang]['name']; ?>
+          </a>
+
           <ul class="dropdown-menu dropdown-menu-end">
             <?php foreach ($availableLangs as $code => $info): ?>
               <li>
