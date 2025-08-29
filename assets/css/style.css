@@ -146,3 +146,36 @@ footer p {
   transform: scale(1.2);
   color: #ffffff;
 }
+
+.card-img-top {
+    height: 200px;      
+    object-fit: cover; 
+  }
+
+  .card {
+    height: 100%; 
+  }
+
+  
+  /* Style uniquement pour les cartes clients */
+  .clients .card {
+    max-width: 250px;   /* Réduction taille des cartes */
+    margin: 0 auto;     /* Centrage */
+  }
+
+    .services .card-title  {
+    color: #000;        /* Titre en noir */
+    font-size: 16px;    /* Taille réduite */
+    font-weight: bold;  /* Plus visible */
+  }
+
+  .clients .card-title  {
+    color: #000;        /* Titre en noir */
+    font-size: 16px;    /* Taille réduite */
+    font-weight: bold;  /* Plus visible */
+  }
+
+  .clients .card img {
+    max-height: 150px;   /* Taille uniforme des logos */
+    object-fit: contain;
+  }
