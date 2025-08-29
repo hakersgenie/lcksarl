@@ -48,7 +48,6 @@ $translations = include "lang/$lang.php";
         <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.php"><?= $translations['nav_home'] ?></a></li>
         <li class="nav-item"><a class="nav-link" href="services.php"><?= $translations['nav_services'] ?></a></li>
-        <li class="nav-item"><a class="nav-link" href="projects.php"><?= $translations['nav_projects'] ?></a></li>
         <li class="nav-item"><a class="nav-link" href="contact.php"><?= $translations['nav_contact'] ?></a></li>
         <li class="nav-item"><a class="nav-link" href="about.php"><?= $translations['nav_about'] ?></a></li>
         <li class="nav-item dropdown">
