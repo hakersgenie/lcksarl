@@ -52,10 +52,10 @@ $services = [
     "ppe" => "🦺 Équipements de Protection Individuelle (EPI)",
     "nettoyage" => "🧹 Nettoyage Industriel & Domestique",
     "climatisation" => "❄️ Service de Climatisation",
-    "maintenance-industrielle" => "⚙️ Nettoyage & Maintenance des Équipements Industriels",
-    "electricite-solaire" => "💡 Installation Électrique & Solaire",
-    "generateur" => "🔌 Fourniture & Maintenance de Générateurs",
-    "securite-camera" => "📹 Caméras de Sécurité"
+    "maintenance" => "⚙️ Nettoyage & Maintenance des Équipements Industriels",
+    "electrical_solar" => "💡 Installation Électrique & Solaire",
+    "generators" => "🔌 Fourniture & Maintenance de Générateurs",
+    "security_cameras" => "📹 Caméras de Sécurité"
 ];
 ?>
 
